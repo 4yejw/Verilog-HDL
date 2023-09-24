@@ -1,0 +1,23 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/ring_counter_frq/tf_ringcounter_frq_isim_beh.exe -prj D:/ring_counter_frq/tf_ringcounter_frq_beh.prj work.tf_ringcounter_frq work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/ring_counter_frq/../frq_div/frq_div.v" into library work
+Analyzing Verilog file "D:/ring_counter_frq/ring_counter_frq.v" into library work
+Analyzing Verilog file "D:/ring_counter_frq/tf_ringcounter_frq.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 159268 KB
+Fuse CPU Usage: 140 ms
+Compiling module frq_div
+Compiling module ring_counter_frq
+Compiling module tf_ringcounter_frq
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 Verilog Units
+Built simulation executable D:/ring_counter_frq/tf_ringcounter_frq_isim_beh.exe
+Fuse Memory Usage: 164580 KB
+Fuse CPU Usage: 187 ms

@@ -1,0 +1,4 @@
+verilog work "frq_div_1.v"
+verilog work "number_10.v"
+verilog work "number_1.v"
+verilog work "bcd_counter_segdis1.v"

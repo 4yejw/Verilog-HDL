@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/bcd_counter_segdis1/tf_frq_div1__isim_beh.exe" -prj "D:/bcd_counter_segdis1/tf_frq_div1__beh.prj" "work.tf_frq_div1_" "work.glbl" 

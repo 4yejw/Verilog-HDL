@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Dec 20 14:12:45 2022
+
+drc -z bcd_counter_segdis1.ncd bcd_counter_segdis1.pcf
+
+DRC detected 0 errors and 0 warnings.

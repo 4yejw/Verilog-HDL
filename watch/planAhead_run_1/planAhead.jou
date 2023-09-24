@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Dec 04 17:51:10 2018
+# Process ID: 4836
+# Log file: D:/jsy_watch/planAhead_run_1/planAhead.log
+# Journal file: D:/jsy_watch/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/jsy_watch/pa.fromNetlist.tcl
+startgroup
+set_property package_pin AF7 [get_ports {led[6]}]
+endgroup
+startgroup
+set_property package_pin AA7 [get_ports {led[5]}]
+endgroup
+startgroup
+set_property package_pin AB7 [get_ports {led[4]}]
+endgroup
+startgroup
+set_property package_pin AF6 [get_ports {led[3]}]
+endgroup
+startgroup
+set_property package_pin AC6 [get_ports {led[2]}]
+endgroup
+startgroup
+set_property package_pin AD6 [get_ports {led[1]}]
+endgroup
+startgroup
+set_property package_pin AC7 [get_ports {led[0]}]
+endgroup
+startgroup
+set_property package_pin W4 [get_ports {seg_com[7]}]
+endgroup
+startgroup
+set_property package_pin W5 [get_ports {seg_com[6]}]
+endgroup
+startgroup
+set_property package_pin W6 [get_ports {seg_com[5]}]
+endgroup
+startgroup
+set_property package_pin AB3 [get_ports {seg_com[4]}]
+endgroup
+startgroup
+set_property package_pin AB4 [get_ports {seg_com[3]}]
+endgroup
+startgroup
+set_property package_pin W1 [get_ports {seg_com[2]}]
+endgroup
+startgroup
+set_property package_pin W2 [get_ports {seg_com[1]}]
+endgroup
+startgroup
+set_property package_pin AD2 [get_ports {seg_com[0]}]
+endgroup
+startgroup
+set_property package_pin AC1 [get_ports {seg_data[7]}]
+endgroup
+startgroup
+set_property package_pin AC2 [get_ports {seg_data[6]}]
+endgroup
+startgroup
+set_property package_pin K25 [get_ports {seg_data[5]}]
+endgroup
+startgroup
+set_property package_pin K26 [get_ports {seg_data[4]}]
+endgroup
+startgroup
+set_property package_pin AA6 [get_ports {seg_data[3]}]
+endgroup
+startgroup
+set_property package_pin AB6 [get_ports {seg_data[2]}]
+endgroup
+startgroup
+set_property package_pin AE5 [get_ports {seg_data[1]}]
+endgroup
+startgroup
+set_property package_pin AF5 [get_ports {seg_data[0]}]
+endgroup
+startgroup
+set_property package_pin AE6 [get_ports am]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports mclk]
+endgroup
+startgroup
+set_property package_pin AD10 [get_ports rst]
+endgroup
+save_constraints

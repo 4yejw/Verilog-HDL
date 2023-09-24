@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Dec 20 14:35:49 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "cnt<4>" LOCATE = SITE "AC7" LEVEL 1;
+COMP "mode" LOCATE = SITE "AC10" LEVEL 1;
+COMP "cnt<5>" LOCATE = SITE "AF7" LEVEL 1;
+COMP "cnt<6>" LOCATE = SITE "AA7" LEVEL 1;
+COMP "cnt<7>" LOCATE = SITE "AB7" LEVEL 1;
+COMP "clk" LOCATE = SITE "A13" LEVEL 1;
+COMP "cnt<0>" LOCATE = SITE "AE6" LEVEL 1;
+COMP "rst" LOCATE = SITE "AD10" LEVEL 1;
+COMP "cnt<1>" LOCATE = SITE "AF6" LEVEL 1;
+COMP "cnt<2>" LOCATE = SITE "AC6" LEVEL 1;
+COMP "cnt<3>" LOCATE = SITE "AD6" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

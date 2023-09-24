@@ -1,0 +1,2 @@
+verilog work "bcd_counter.v"
+verilog work "bcd_counter_segdis.v"

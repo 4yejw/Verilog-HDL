@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "F:/ringcounter_mode/ringcounter_mode.xst" -ofn "F:/ringcounter_mode/ringcounter_mode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ringcounter_mode.ucf -p xc3s1000-fg676-4 ringcounter_mode.ngc ringcounter_mode.ngd  
+map -intstyle ise -p xc3s1000-fg676-4 -cm area -ir off -pr off -c 100 -o ringcounter_mode_map.ncd ringcounter_mode.ngd ringcounter_mode.pcf 
+par -w -intstyle ise -ol high -t 1 ringcounter_mode_map.ncd ringcounter_mode.ncd ringcounter_mode.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ringcounter_mode.twx ringcounter_mode.ncd -o ringcounter_mode.twr ringcounter_mode.pcf -ucf ringcounter_mode.ucf 
+bitgen -intstyle ise -f ringcounter_mode.ut ringcounter_mode.ncd 
+xst -intstyle ise -ifn "F:/ringcounter_mode/ringcounter_mode.xst" -ofn "F:/ringcounter_mode/ringcounter_mode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ringcounter_mode.ucf -p xc3s1000-fg676-4 ringcounter_mode.ngc ringcounter_mode.ngd  
+map -intstyle ise -p xc3s1000-fg676-4 -cm area -ir off -pr off -c 100 -o ringcounter_mode_map.ncd ringcounter_mode.ngd ringcounter_mode.pcf 
+par -w -intstyle ise -ol high -t 1 ringcounter_mode_map.ncd ringcounter_mode.ncd ringcounter_mode.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ringcounter_mode.twx ringcounter_mode.ncd -o ringcounter_mode.twr ringcounter_mode.pcf -ucf ringcounter_mode.ucf 
+bitgen -intstyle ise -f ringcounter_mode.ut ringcounter_mode.ncd 
+xst -intstyle ise -ifn "F:/ringcounter_mode/ringcounter_mode.xst" -ofn "F:/ringcounter_mode/ringcounter_mode.syr" 
+xst -intstyle ise -ifn "F:/ringcounter_mode/ringcounter_mode.xst" -ofn "F:/ringcounter_mode/ringcounter_mode.syr" 
+xst -intstyle ise -ifn "F:/ringcounter_mode/ringcounter_mode.xst" -ofn "F:/ringcounter_mode/ringcounter_mode.syr" 
+xst -intstyle ise -ifn "F:/ringcounter_mode/ringcounter_mode.xst" -ofn "F:/ringcounter_mode/ringcounter_mode.syr" 
+xst -intstyle ise -ifn "F:/ringcounter_mode/ringcounter_mode.xst" -ofn "F:/ringcounter_mode/ringcounter_mode.syr" 
+xst -intstyle ise -ifn "F:/ringcounter_mode/ringcounter_mode.xst" -ofn "F:/ringcounter_mode/ringcounter_mode.syr" 
+xst -intstyle ise -ifn "F:/ringcounter_mode/ringcounter_mode.xst" -ofn "F:/ringcounter_mode/ringcounter_mode.syr" 
+xst -intstyle ise -ifn "F:/ringcounter_mode/ringcounter_mode.xst" -ofn "F:/ringcounter_mode/ringcounter_mode.syr" 
+xst -intstyle ise -ifn "F:/ringcounter_mode/ringcounter_mode.xst" -ofn "F:/ringcounter_mode/ringcounter_mode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ringcounter_mode.ucf -p xc3s1000-fg676-4 ringcounter_mode.ngc ringcounter_mode.ngd  
+map -intstyle ise -p xc3s1000-fg676-4 -cm area -ir off -pr off -c 100 -o ringcounter_mode_map.ncd ringcounter_mode.ngd ringcounter_mode.pcf 
+par -w -intstyle ise -ol high -t 1 ringcounter_mode_map.ncd ringcounter_mode.ncd ringcounter_mode.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ringcounter_mode.twx ringcounter_mode.ncd -o ringcounter_mode.twr ringcounter_mode.pcf -ucf ringcounter_mode.ucf 
+bitgen -intstyle ise -f ringcounter_mode.ut ringcounter_mode.ncd 

@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "F:/ringcounter_mode_frq/ringcounter_mode_frq.xst" -ofn "F:/ringcounter_mode_frq/ringcounter_mode_frq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ringcounter_mode_frq.ucf -p xc3s1000-fg676-4 ringcounter_mode_frq.ngc ringcounter_mode_frq.ngd  
+map -intstyle ise -p xc3s1000-fg676-4 -cm area -ir off -pr off -c 100 -o ringcounter_mode_frq_map.ncd ringcounter_mode_frq.ngd ringcounter_mode_frq.pcf 
+par -w -intstyle ise -ol high -t 1 ringcounter_mode_frq_map.ncd ringcounter_mode_frq.ncd ringcounter_mode_frq.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ringcounter_mode_frq.twx ringcounter_mode_frq.ncd -o ringcounter_mode_frq.twr ringcounter_mode_frq.pcf -ucf ringcounter_mode_frq.ucf 
+bitgen -intstyle ise -f ringcounter_mode_frq.ut ringcounter_mode_frq.ncd 
+xst -intstyle ise -ifn "F:/ringcounter_mode_frq/ringcounter_mode_frq.xst" -ofn "F:/ringcounter_mode_frq/ringcounter_mode_frq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ringcounter_mode_frq.ucf -p xc3s1000-fg676-4 ringcounter_mode_frq.ngc ringcounter_mode_frq.ngd  
+map -intstyle ise -p xc3s1000-fg676-4 -cm area -ir off -pr off -c 100 -o ringcounter_mode_frq_map.ncd ringcounter_mode_frq.ngd ringcounter_mode_frq.pcf 
+par -w -intstyle ise -ol high -t 1 ringcounter_mode_frq_map.ncd ringcounter_mode_frq.ncd ringcounter_mode_frq.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ringcounter_mode_frq.twx ringcounter_mode_frq.ncd -o ringcounter_mode_frq.twr ringcounter_mode_frq.pcf -ucf ringcounter_mode_frq.ucf 
+bitgen -intstyle ise -f ringcounter_mode_frq.ut ringcounter_mode_frq.ncd 
+xst -intstyle ise -ifn "F:/ringcounter_mode_frq/ringcounter_mode_frq.xst" -ofn "F:/ringcounter_mode_frq/ringcounter_mode_frq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ringcounter_mode_frq.ucf -p xc3s1000-fg676-4 ringcounter_mode_frq.ngc ringcounter_mode_frq.ngd  
+map -intstyle ise -p xc3s1000-fg676-4 -cm area -ir off -pr off -c 100 -o ringcounter_mode_frq_map.ncd ringcounter_mode_frq.ngd ringcounter_mode_frq.pcf 
+par -w -intstyle ise -ol high -t 1 ringcounter_mode_frq_map.ncd ringcounter_mode_frq.ncd ringcounter_mode_frq.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ringcounter_mode_frq.twx ringcounter_mode_frq.ncd -o ringcounter_mode_frq.twr ringcounter_mode_frq.pcf -ucf ringcounter_mode_frq.ucf 
+bitgen -intstyle ise -f ringcounter_mode_frq.ut ringcounter_mode_frq.ncd 

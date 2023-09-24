@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/new_file/tf__isim_beh.exe" -prj "E:/new_file/tf__beh.prj" "work.tf_" "work.glbl" 

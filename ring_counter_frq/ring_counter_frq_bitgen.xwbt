@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\ring_counter_frq\ring_counter_frq.ncd
+OUTFILE=F:\ring_counter_frq\ring_counter_frq.bit
+FAMILY=Spartan3
+PART=xc3s1000-5fg676
+WORKINGDIR=F:\ring_counter_frq
+LICENSE=WebPack
+USER_INFO=__0_0_0

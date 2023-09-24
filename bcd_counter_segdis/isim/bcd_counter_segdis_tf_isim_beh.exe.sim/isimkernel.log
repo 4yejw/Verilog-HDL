@@ -1,0 +1,29 @@
+Command line:
+   bcd_counter_segdis_tf_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56706
+
+Mon Dec 19 15:44:55 2022
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 853.307 Meg
+
+ Total Signals          : 21
+ Total Nets             : 35
+ Total Signal Drivers   : 10
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 129
+Total Line Count : 43
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 1168.4 Meg
+
+Mon Dec 19 15:45:38 2022
+

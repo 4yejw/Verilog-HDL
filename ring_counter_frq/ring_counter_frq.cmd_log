@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "D:/ring_counter_frq/ring_counter_frq.xst" -ofn "D:/ring_counter_frq/ring_counter_frq.syr" 
+xst -intstyle ise -ifn "D:/ring_counter_frq/ring_counter_frq.xst" -ofn "D:/ring_counter_frq/ring_counter_frq.syr" 
+xst -intstyle ise -ifn "D:/ring_counter_frq/ring_counter_frq.xst" -ofn "D:/ring_counter_frq/ring_counter_frq.syr" 
+xst -intstyle ise -ifn "D:/ring_counter_frq/ring_counter_frq.xst" -ofn "D:/ring_counter_frq/ring_counter_frq.syr" 
+xst -intstyle ise -ifn "F:/ring_counter_frq/ring_counter_frq.xst" -ofn "F:/ring_counter_frq/ring_counter_frq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ring_counter_frq.ucf -p xc3s1000-fg676-5 ring_counter_frq.ngc ring_counter_frq.ngd  
+map -intstyle ise -p xc3s1000-fg676-5 -cm area -ir off -pr off -c 100 -o ring_counter_frq_map.ncd ring_counter_frq.ngd ring_counter_frq.pcf 
+par -w -intstyle ise -ol high -t 1 ring_counter_frq_map.ncd ring_counter_frq.ncd ring_counter_frq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ring_counter_frq.twx ring_counter_frq.ncd -o ring_counter_frq.twr ring_counter_frq.pcf -ucf ring_counter_frq.ucf 
+bitgen -intstyle ise -f ring_counter_frq.ut ring_counter_frq.ncd 
+xst -intstyle ise -ifn "F:/ring_counter_frq/ring_counter_frq.xst" -ofn "F:/ring_counter_frq/ring_counter_frq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ring_counter_frq.ucf -p xc3s1000-fg676-5 ring_counter_frq.ngc ring_counter_frq.ngd  
+map -intstyle ise -p xc3s1000-fg676-5 -cm area -ir off -pr off -c 100 -o ring_counter_frq_map.ncd ring_counter_frq.ngd ring_counter_frq.pcf 
+par -w -intstyle ise -ol high -t 1 ring_counter_frq_map.ncd ring_counter_frq.ncd ring_counter_frq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ring_counter_frq.twx ring_counter_frq.ncd -o ring_counter_frq.twr ring_counter_frq.pcf -ucf ring_counter_frq.ucf 
+bitgen -intstyle ise -f ring_counter_frq.ut ring_counter_frq.ncd 
+xst -intstyle ise -ifn "F:/ring_counter_frq/ring_counter_frq.xst" -ofn "F:/ring_counter_frq/ring_counter_frq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-fg676-5 ring_counter_frq.ngc ring_counter_frq.ngd  
+map -intstyle ise -p xc3s1000-fg676-5 -cm area -ir off -pr off -c 100 -o ring_counter_frq_map.ncd ring_counter_frq.ngd ring_counter_frq.pcf 
+par -w -intstyle ise -ol high -t 1 ring_counter_frq_map.ncd ring_counter_frq.ncd ring_counter_frq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ring_counter_frq.twx ring_counter_frq.ncd -o ring_counter_frq.twr ring_counter_frq.pcf 
+bitgen -intstyle ise -f ring_counter_frq.ut ring_counter_frq.ncd 

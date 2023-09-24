@@ -1,0 +1,5 @@
+set -tmpdir "D:/bcd_counter_segdis1/xst/projnav.tmp"
+set -xsthdpdir "D:/bcd_counter_segdis1/xst"
+elaborate
+-ifn bcd_counter1.prj
+-ifmt mixed

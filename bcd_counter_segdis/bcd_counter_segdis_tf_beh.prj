@@ -1,0 +1,4 @@
+verilog work "bcd_counter.v"
+verilog work "bcd_counter_segdis.v"
+verilog work "bcd_counter_segdis_tf.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

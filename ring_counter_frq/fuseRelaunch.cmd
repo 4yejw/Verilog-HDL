@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/ring_counter_frq/tf_ringcounter_frq_isim_beh.exe" -prj "D:/ring_counter_frq/tf_ringcounter_frq_beh.prj" "work.tf_ringcounter_frq" "work.glbl" 

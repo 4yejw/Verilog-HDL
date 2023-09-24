@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Dec 04 21:29:16 2018
+# Process ID: 3708
+# Log file: D:/jsy_watch/planAhead_run_4/planAhead.log
+# Journal file: D:/jsy_watch/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/jsy_watch/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P7 [get_ports {vfd_data[7]}]
+endgroup
+startgroup
+set_property package_pin P8 [get_ports {vfd_data[6]}]
+endgroup
+startgroup
+set_property package_pin P1 [get_ports {vfd_data[5]}]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports {vfd_data[4]}]
+endgroup
+startgroup
+set_property package_pin P3 [get_ports {vfd_data[3]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {vfd_data[2]}]
+endgroup
+startgroup
+set_property package_pin R5 [get_ports {vfd_data[1]}]
+endgroup
+startgroup
+set_property package_pin R6 [get_ports {vfd_data[0]}]
+endgroup
+startgroup
+set_property package_pin R7 [get_ports vfd_e]
+endgroup
+startgroup
+set_property package_pin T8 [get_ports vfd_rs]
+endgroup
+startgroup
+set_property package_pin R8 [get_ports vfd_rw]
+endgroup
+save_constraints

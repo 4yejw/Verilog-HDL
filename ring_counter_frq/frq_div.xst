@@ -1,0 +1,5 @@
+set -tmpdir "D:/ring_counter_frq/xst/projnav.tmp"
+set -xsthdpdir "D:/ring_counter_frq/xst"
+elaborate
+-ifn frq_div.prj
+-ifmt mixed

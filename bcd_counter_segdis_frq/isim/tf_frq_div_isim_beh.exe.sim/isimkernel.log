@@ -1,0 +1,29 @@
+Command line:
+   tf_frq_div_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  57802
+
+Mon Dec 19 16:47:36 2022
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 853.955 Meg
+
+ Total Signals          : 15
+ Total Nets             : 15
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 101
+Total Line Count : 26
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 853.955 Meg
+
+Mon Dec 19 16:48:01 2022
+

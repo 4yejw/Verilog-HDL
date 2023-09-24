@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\bcd_counter_segdis1\bcd_counter_segdis1.ncd
+OUTFILE=F:\bcd_counter_segdis1\bcd_counter_segdis1.bit
+FAMILY=Spartan3
+PART=xc3s1000-5fg676
+WORKINGDIR=F:\bcd_counter_segdis1
+LICENSE=WebPack
+USER_INFO=__0_0_0

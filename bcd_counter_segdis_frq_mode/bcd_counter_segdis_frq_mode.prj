@@ -1,0 +1,3 @@
+verilog work "frq_div2.v"
+verilog work "bcd_counter1.v"
+verilog work "bcd_counter_segdis_frq_mode.v"

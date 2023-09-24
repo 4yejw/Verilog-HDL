@@ -1,0 +1,105 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source F:/new_file/pa.fromHdl.tcl
+# create_project -name new_file -dir "F:/new_file/planAhead_run_1" -part xc3s1000fg676-5
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "new_file.ucf" [current_fileset -constrset]
+Adding file 'F:/new_file/new_file.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {frq_div_10.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {count_file_2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {count_file.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {new_file.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top new_file $srcset
+# add_files [list {new_file.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s1000fg676-5
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "F:/new_file/frq_div_10.v" into library work
+Analyzing Verilog file "F:/new_file/count_file_2.v" into library work
+Analyzing Verilog file "F:/new_file/count_file.v" into library work
+Analyzing Verilog file "F:/new_file/new_file.v" into library work
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/fg676/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1000/fg676/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-5.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-5.lib.
+Parsing UCF File [F:/new_file/new_file.ucf]
+Finished Parsing UCF File [F:/new_file/new_file.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 205b8fe8
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin W4 [get_ports {seg_com[7]}]
+endgroup
+startgroup
+set_property package_pin W5 [get_ports {seg_com[6]}]
+endgroup
+startgroup
+set_property package_pin W6 [get_ports {seg_com[5]}]
+endgroup
+startgroup
+set_property package_pin AB3 [get_ports {seg_com[4]}]
+endgroup
+startgroup
+set_property package_pin AB4 [get_ports {seg_com[3]}]
+endgroup
+startgroup
+set_property package_pin W1 [get_ports {seg_com[2]}]
+endgroup
+startgroup
+set_property package_pin W2 [get_ports {seg_com[1]}]
+endgroup
+startgroup
+set_property package_pin AD2 [get_ports {seg_com[0]}]
+endgroup
+startgroup
+set_property package_pin AC1 [get_ports {seg_data[7]}]
+endgroup
+startgroup
+set_property package_pin AC2 [get_ports {seg_data[6]}]
+endgroup
+startgroup
+set_property package_pin K25 [get_ports {seg_data[5]}]
+endgroup
+startgroup
+set_property package_pin K26 [get_ports {seg_data[4]}]
+endgroup
+startgroup
+set_property package_pin AA6 [get_ports {seg_data[3]}]
+endgroup
+startgroup
+set_property package_pin AB6 [get_ports {seg_data[2]}]
+endgroup
+startgroup
+set_property package_pin AE5 [get_ports {seg_data[1]}]
+endgroup
+startgroup
+set_property package_pin AF5 [get_ports {seg_data[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {seg_data1[7]}]]

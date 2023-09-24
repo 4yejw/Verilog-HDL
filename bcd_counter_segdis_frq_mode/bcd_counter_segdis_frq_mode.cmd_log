@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "F:/bcd_counter_segdis_frq_mode/bcd_counter_segdis_frq_mode.xst" -ofn "F:/bcd_counter_segdis_frq_mode/bcd_counter_segdis_frq_mode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd_counter_segdis_frq_mode.ucf -p xc3s1000-fg676-4 bcd_counter_segdis_frq_mode.ngc bcd_counter_segdis_frq_mode.ngd  
+map -intstyle ise -p xc3s1000-fg676-4 -cm area -ir off -pr off -c 100 -o bcd_counter_segdis_frq_mode_map.ncd bcd_counter_segdis_frq_mode.ngd bcd_counter_segdis_frq_mode.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd_counter_segdis_frq_mode.ucf -p xc3s1000-fg676-4 bcd_counter_segdis_frq_mode.ngc bcd_counter_segdis_frq_mode.ngd  
+map -intstyle ise -p xc3s1000-fg676-4 -cm area -ir off -pr off -c 100 -o bcd_counter_segdis_frq_mode_map.ncd bcd_counter_segdis_frq_mode.ngd bcd_counter_segdis_frq_mode.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_counter_segdis_frq_mode_map.ncd bcd_counter_segdis_frq_mode.ncd bcd_counter_segdis_frq_mode.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd_counter_segdis_frq_mode.twx bcd_counter_segdis_frq_mode.ncd -o bcd_counter_segdis_frq_mode.twr bcd_counter_segdis_frq_mode.pcf -ucf bcd_counter_segdis_frq_mode.ucf 
+bitgen -intstyle ise -f bcd_counter_segdis_frq_mode.ut bcd_counter_segdis_frq_mode.ncd 
+xst -intstyle ise -ifn "F:/bcd_counter_segdis_frq_mode/bcd_counter_segdis_frq_mode.xst" -ofn "F:/bcd_counter_segdis_frq_mode/bcd_counter_segdis_frq_mode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd_counter_segdis_frq_mode.ucf -p xc3s1000-fg676-4 bcd_counter_segdis_frq_mode.ngc bcd_counter_segdis_frq_mode.ngd  
+map -intstyle ise -p xc3s1000-fg676-4 -cm area -ir off -pr off -c 100 -o bcd_counter_segdis_frq_mode_map.ncd bcd_counter_segdis_frq_mode.ngd bcd_counter_segdis_frq_mode.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_counter_segdis_frq_mode_map.ncd bcd_counter_segdis_frq_mode.ncd bcd_counter_segdis_frq_mode.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd_counter_segdis_frq_mode.twx bcd_counter_segdis_frq_mode.ncd -o bcd_counter_segdis_frq_mode.twr bcd_counter_segdis_frq_mode.pcf -ucf bcd_counter_segdis_frq_mode.ucf 
+bitgen -intstyle ise -f bcd_counter_segdis_frq_mode.ut bcd_counter_segdis_frq_mode.ncd 

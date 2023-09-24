@@ -1,0 +1,4 @@
+verilog work "frq_div_10.v"
+verilog work "count_file_2.v"
+verilog work "count_file.v"
+verilog work "new_file.v"

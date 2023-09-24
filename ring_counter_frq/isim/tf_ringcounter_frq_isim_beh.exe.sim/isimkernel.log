@@ -1,0 +1,29 @@
+Command line:
+   tf_ringcounter_frq_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54506
+
+Mon Dec 19 20:30:27 2022
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 852.718 Meg
+
+ Total Signals          : 20
+ Total Nets             : 25
+ Total Signal Drivers   : 10
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 121
+Total Line Count : 47
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 380.072 Meg
+
+Mon Dec 19 21:03:38 2022
+

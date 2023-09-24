@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;bcd_counter_segdis.v&quot; line 27 </arg>Connection to output port &apos;<arg fmt="%s" index="2">cnt</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">bcd_counter_segdis</arg>&gt;.
+</msg>
+
+</messages>
+

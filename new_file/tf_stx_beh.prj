@@ -1,0 +1,6 @@
+verilog isim_temp "frq_div_10.v"
+verilog isim_temp "count_file_2.v"
+verilog isim_temp "count_file.v"
+verilog isim_temp "new_file.v"
+verilog isim_temp "tf.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

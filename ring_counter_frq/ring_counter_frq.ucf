@@ -1,0 +1,14 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "mclk" LOC = A13;
+NET "mode" LOC = AC10;
+NET "rst" LOC = AD10;
+NET "cnt[0]" LOC = AE6;
+NET "cnt[1]" LOC = AF6;
+NET "cnt[2]" LOC = AC6;
+NET "cnt[3]" LOC = AD6;
+NET "cnt[4]" LOC = AC7;
+NET "cnt[5]" LOC = AF7;
+NET "cnt[6]" LOC = AA7;
+NET "cnt[7]" LOC = AB7;

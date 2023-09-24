@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\ring_counter\ring_counter.ncd
+OUTFILE=F:\ring_counter\ring_counter.bit
+FAMILY=Spartan3
+PART=xc3s1000-4fg676
+WORKINGDIR=F:\ring_counter
+LICENSE=WebPack
+USER_INFO=__0_0_0
