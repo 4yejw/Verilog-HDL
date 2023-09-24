@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\Administrator\Desktop\gyeongwon\jsy_watch\top.ncd
-OUTFILE=C:\Users\Administrator\Desktop\gyeongwon\jsy_watch\top.bit
-FAMILY=Spartan3
-PART=xc3s1000-4fg676
-WORKINGDIR=C:\Users\Administrator\Desktop\gyeongwon\jsy_watch
-LICENSE=WebPack
-USER_INFO=__0_0_0
